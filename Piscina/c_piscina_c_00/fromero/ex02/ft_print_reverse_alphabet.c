@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aborboll <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: frromero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/05 12:28:53 by aborboll          #+#    #+#             */
-/*   Updated: 2019/09/07 10:46:06 by aborboll         ###   ########.fr       */
+/*   Created: 2024/08/05 12:28:53 by frromero          #+#    #+#             */
+/*   Updated: 2024/08/07 10:46:06 by frromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unisdt.h>
 
-void	ft_print_reverse_alphabet(void)
+void ft_print_reverse_alphabet(void)
 {
 	int y;
 

@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aborboll <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: frromero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/05 11:45:50 by aborboll          #+#    #+#             */
-/*   Updated: 2019/09/07 10:45:49 by aborboll         ###   ########.fr       */
+/*   Created: 2024/08/05 11:45:50 by frromero          #+#    #+#             */
+/*   Updated: 2024/08/07 10:45:49 by frromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_alphabet(void)
+void ft_print_alphabet(void)
 {
 	int y;
 

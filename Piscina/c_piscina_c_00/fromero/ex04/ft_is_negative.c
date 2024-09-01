@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aborboll <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: frromero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/05 12:41:59 by aborboll          #+#    #+#             */
-/*   Updated: 2019/09/07 10:47:29 by aborboll         ###   ########.fr       */
+/*   Created: 2024/08/05 12:41:59 by frromero          #+#    #+#             */
+/*   Updated: 2024/08/07 10:47:29 by frromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_is_negative(int n)
+void ft_is_negative(int n)
 {
 	char n;
 	char s;

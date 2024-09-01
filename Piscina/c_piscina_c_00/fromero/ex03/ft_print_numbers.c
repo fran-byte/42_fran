@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aborboll <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: frromero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/05 13:27:34 by aborboll          #+#    #+#             */
-/*   Updated: 2019/09/07 10:46:46 by aborboll         ###   ########.fr       */
+/*   Created: 2024/08/05 13:27:34 by frromero          #+#    #+#             */
+/*   Updated: 2024/08/07 10:46:46 by frromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_numbers(void)
+void ft_print_numbers(void)
 {
 	int y;
 
