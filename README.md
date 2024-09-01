@@ -1,5 +1,5 @@
 <p align="center"><img src="https://raw.githubusercontent.com/dalexhd/42Madrid/master/docs/assets/images/42-logo.png" width=128></p>
-<h4 align="center">All my 42 life in a single light Github repository.</h4>
+<h4 align="center">Mi paso por 42 Madrid en GitHub</h4>
 <p align="center">
   <a href="https://github.com/dalexhd/42Madrid/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/dalexhd/42Madrid?label=Issues"></a>
   <a href="https://github.com/dalexhd/42Madrid/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/dalexhd/42Madrid?label=Forks"></a>
