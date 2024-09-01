@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/dalexhd/42Madrid/master/docs/assets/images/42-logo.png" width=128></p>
+<p align="center"><img src="https://github.com/fran-byte/42_fran/tree/main/images/42-logo.png" width=128></p>
 <h4 align="center">Mi paso por 42 Madrid en GitHub</h4>
 <p align="center">
   <a href="https://github.com/dalexhd/42Madrid/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/dalexhd/42Madrid?label=Issues"></a>
