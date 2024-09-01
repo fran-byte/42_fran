@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/fran-byte/blob/main/images/42-logo.png" width=128></p>
+<p align="center"><img src="https://github.com/fran-byte/42_fran/tree/main/images/logo-42.png" width=128></p>
 <h4 align="center">Mi paso por 42 Madrid en GitHub</h4>
 <p align="center">
 
