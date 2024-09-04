@@ -1,2 +1,2 @@
 #!/bin/bash
-grou    ps | tr ' ' ',' | tr -d '\n'
+groups | tr ' ' ',' | tr -d '\n'
