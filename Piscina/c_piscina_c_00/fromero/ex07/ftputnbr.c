@@ -3,23 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ftputnbr.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aborboll <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: frromero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/06 11:59:54 by aborboll          #+#    #+#             */
-/*   Updated: 2019/09/07 10:49:21 by aborboll         ###   ########.fr       */
+/*   Created: 2024/08/06 11:59:54 by frromero          #+#    #+#             */
+/*   Updated: 2024/08/07 10:49:21 by frromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char a)
+void ft_putchar(char a)
 {
 	write(1, &a, 1);
 }
 
-void	ft_putnbr(int n)
+void ft_putnbr(int n)
 {
-	int	number;
+	int number;
 
 	if (n < 0 && n * -1)
 	{

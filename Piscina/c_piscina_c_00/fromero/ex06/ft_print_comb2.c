@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aborboll <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: frromero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/05 18:15:41 by aborboll          #+#    #+#             */
-/*   Updated: 2019/09/07 10:48:47 by aborboll         ###   ########.fr       */
+/*   Created: 2024/08/05 18:15:41 by frromero          #+#    #+#             */
+/*   Updated: 2024/08/07 10:48:47 by frromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	par(int i)
+void par(int i)
 {
 	int u;
 	int d;
@@ -25,12 +25,12 @@ void	par(int i)
 	write(1, &u, 1);
 }
 
-void	ft_print_comb_2(void)
+void ft_print_comb_2(void)
 {
-	char	comma;
-	int		c;
-	int		d;
-	int		b;
+	char comma;
+	int c;
+	int d;
+	int b;
 
 	comma = ',';
 	b = ' ';

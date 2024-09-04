@@ -3,21 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aborboll <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: frromero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/05 11:30:55 by aborboll          #+#    #+#             */
-/*   Updated: 2019/09/07 10:48:12 by aborboll         ###   ########.fr       */
+/*   Created: 2024/08/05 11:30:55 by frromero          #+#    #+#             */
+/*   Updated: 2024/08/07 10:48:12 by frromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putcomma(void)
+void ft_putcomma(void)
 {
 	write(1, ", ", 2);
 }
 
-void	ft_putchar(char a, char b, char c)
+void ft_putchar(char a, char b, char c)
 {
 	write(1, &a, 1);
 	write(1, &b, 1);
@@ -28,7 +28,7 @@ void	ft_putchar(char a, char b, char c)
 	}
 }
 
-void	ft_print_comb(void)
+void ft_print_comb(void)
 {
 	int a;
 	int b;
