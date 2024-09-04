@@ -12,12 +12,12 @@
 
 #include <unistd.h>
 
-void	ft_putchar(char a)
+void ft_putchar(char a)
 {
 	write(1, &a, 1);
 }
 
-void	ft_putstr(char *str)
+void ft_putstr(char *str)
 {
 	int i;
 
@@ -30,7 +30,7 @@ void	ft_putstr(char *str)
 	ft_putchar('\n');
 }
 
-int		main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	argc = 0;
 	ft_putstr(argv[0]);
