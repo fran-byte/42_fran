@@ -82,18 +82,6 @@
 
 Este Makefile está diseñado para gestionar eficientemente la compilación, limpieza y reconstrucción de un proyecto en C, junto con su biblioteca auxiliar `libft`.
 
-El jue., 5 sept. 2024 9:16, Romero, Francisco (Madrid) <francisco.romero@es.glory-global.com> escribió:
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: jubonill <jubonill@student.s19.be>         +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/11/28 16:26:08 by jubonill          #+#    #+#              #
-#    Updated: 2021/02/15 16:16:42 by jubonill         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
 
 NAME        = libftprintf.a
 
