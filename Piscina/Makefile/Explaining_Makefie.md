@@ -1,4 +1,4 @@
-´´´
+```
 /Proyecto
 │
 ├── /srcs                   # Carpeta donde se encuentran los archivos fuente del proyecto
