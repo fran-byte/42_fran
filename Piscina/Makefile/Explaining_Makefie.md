@@ -68,7 +68,7 @@
 - **Los archivos objeto del proyecto y de `libft`** se combinan en un único archivo final, que sería la salida del proyecto (`nombre_programa.a`).
 
 
-
+---
 
 Este Makefile está diseñado para gestionar eficientemente la compilación, limpieza y reconstrucción de un proyecto en C, junto con su biblioteca auxiliar `libft`.
 
