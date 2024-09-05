@@ -1,3 +1,75 @@
+´´´
+/Proyecto
+│
+├── /srcs                   # Carpeta donde se encuentran los archivos fuente del proyecto
+│   ├── outputs.c
+│   ├── parsing.c
+│   ├── binaries.c
+│   └── t_print.c
+│
+├── /libft                  # Carpeta de la biblioteca auxiliar libft
+│   ├── libft.h             # Archivo de cabecera de la biblioteca
+│   ├── libft.a             # Biblioteca estática (se genera tras compilar libft)
+│   ├── /srcs               # Archivos fuente de libft
+│   │   ├── ft_atoi.c
+│   │   ├── ft_strlen.c
+│   │   ├── ft_strcpy.c
+│   │   └── ...             # Más archivos fuente de libft
+│   ├── /objs               # Archivos objeto (.o) de libft (se generan tras compilar)
+│   │   ├── ft_atoi.o
+│   │   ├── ft_strlen.o
+│   │   └── ft_strcpy.o
+│   └── Makefile            # Makefile específico de la biblioteca libft
+│
+├── /objs                   # Archivos objeto del proyecto principal (se generan tras compilar)
+│   ├── outputs.o
+│   ├── parsing.o
+│   ├── binaries.o
+│   └── t_print.o
+│
+├── /includes               # Archivos de cabecera del proyecto (opcional, si se utilizan)
+│   ├── project.h           # Archivo de cabecera del proyecto
+│   └── ...                 # Otros archivos de cabecera si los hay
+│
+├── Makefile                # Makefile principal del proyecto
+└── nombre_programa.a        # Archivo de salida final del proyecto (se genera tras compilar)
+```
+
+### Descripción de las carpetas y archivos:
+
+1. **`/srcs`**:
+   - Carpeta que contiene los archivos fuente (`.c`) del proyecto principal. Aquí se encuentran los archivos `outputs.c`, `parsing.c`, `binaries.c` y `t_print.c`, que son compilados en archivos `.o` (objetos) para la creación del programa o biblioteca final.
+
+2. **`/libft`**:
+   - Contiene la biblioteca auxiliar `libft` que se incluye en el proyecto.
+   - Dentro de esta carpeta se encuentra:
+     - **`libft.h`**: El archivo de cabecera que define las funciones de la biblioteca.
+     - **`libft.a`**: El archivo final de la biblioteca estática, que se genera después de compilar.
+     - **`/srcs`**: Carpeta con los archivos fuente de `libft`.
+     - **`/objs`**: Carpeta donde se almacenan los archivos objeto `.o` generados al compilar `libft`.
+     - **Makefile**: Un archivo Makefile específico para compilar la biblioteca `libft`.
+
+3. **`/objs`**:
+   - Carpeta que contiene los archivos objeto (`.o`) del proyecto principal. Estos archivos se generan al compilar los archivos fuente del proyecto y son utilizados para crear la biblioteca o ejecutable final.
+
+4. **`/includes`** (opcional):
+   - Si el proyecto utiliza archivos de cabecera (`.h`) que definen funciones o estructuras utilizadas en el código, estos se pueden encontrar en esta carpeta. Un ejemplo sería `project.h`.
+
+5. **Makefile**:
+   - El archivo Makefile principal que controla la compilación del proyecto.
+
+6. **`nombre_programa.a`**:
+   - Este es el archivo final que genera el proyecto. Dependiendo del proyecto, podría ser una biblioteca estática (archivo `.a`) o un ejecutable.
+
+### Explicación de cómo encaja con el Makefile:
+
+- **Archivos fuente (`outputs.c`, `parsing.c`, etc.)** se encuentran en la carpeta `/srcs` y son convertidos en archivos objeto (`outputs.o`, `parsing.o`, etc.) en la carpeta `/objs`.
+- **La biblioteca `libft`** tiene su propio directorio `/libft`, que contiene sus archivos fuente y su propio Makefile. Al ejecutar la regla `pmake`, se invoca el Makefile de `libft` para compilar su código y generar el archivo `libft.a`.
+- **Los archivos objeto del proyecto y de `libft`** se combinan en un único archivo final, que sería la salida del proyecto (`nombre_programa.a`).
+
+
+
+
 Este Makefile está diseñado para gestionar eficientemente la compilación, limpieza y reconstrucción de un proyecto en C, junto con su biblioteca auxiliar `libft`.
 
 
