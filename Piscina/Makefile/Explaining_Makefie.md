@@ -72,7 +72,7 @@
 
 Este Makefile está diseñado para gestionar eficientemente la compilación, limpieza y reconstrucción de un proyecto en C, junto con su biblioteca auxiliar `libft`.
 
-
+```
 NAME        = libftprintf.a
 
 SRCS_PATH   = srcs/
@@ -127,7 +127,7 @@ fclean:           clean
 re:         fclean all
 
 .PHONY:           all clean fclean re
-
+```
 ---
 
 
